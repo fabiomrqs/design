@@ -385,10 +385,8 @@
 
              <section class="project-gallery">
 
-                <div class="project-image project-image--square">
-                    <video autoplay loop muted playsinline>
-                        <source src="img/case-2/vision-2.webm" type="video/webm">
-                        </video>
+                <div id='animacao2' class="project-image project-image--square">
+        
                     </div>
 
                                  <div class="project-image project-image--square">
@@ -735,6 +733,17 @@ lottie.loadAnimation({
     path: 'img/case-2/export-2_edited.json' // seu arquivo JSON
 });
 </script>
+
+        <script>
+lottie.loadAnimation({
+    container: document.getElementById('animacao2'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'img/case-2/export-1.json' // seu arquivo JSON
+});
+</script>
+
         <script src="script.js"></script>
 
     </body>
