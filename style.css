@@ -288,6 +288,32 @@ hr {
     line-height: 1.5;
 }
 
+/* Cards "em breve" — sem link, thumb cinza com texto */
+
+.project--soon {
+    cursor: default;
+    pointer-events: none;
+}
+
+.project--soon h3,
+.project--soon p {
+    opacity: 0.6;
+}
+
+.thumb--soon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E5E5E7;
+}
+
+.thumb--soon span {
+    color: #9A9AA0;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
 
 /* ==========================================================================
    7. ABOUT PAGE
