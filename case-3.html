@@ -290,8 +290,8 @@
     <section class="project-gallery">
 
 
-     <div class="project-image project-image--square">
-        <img src="img/case-3/img-5.png" alt="">
+     <div id="img-5" class="project-image project-image--square">
+        
     </div>
 
      <div class="project-image project-image--square">
@@ -599,6 +599,15 @@ lottie.loadAnimation({
 });
 </script>
 
+<script>
+    lottie.loadAnimation({
+        container: document.getElementById('img-5'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+    path: 'img/case-3/img-5.json' 
+});
+</script>
 
 <script src="script.js"></script>
 
