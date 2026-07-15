@@ -577,12 +577,15 @@
 
 </div>
 <script>
-    lottie.loadAnimation({
-        container: document.getElementById('img-7'),
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-    path: 'img/case-3/img-7.json' 
+lottie.loadAnimation({
+    container: document.getElementById('img-7'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'img/case-3/img-7.json',
+    rendererSettings: {
+        preserveAspectRatio: 'xMidYMid slice'
+    }
 });
 </script>
 
