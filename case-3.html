@@ -588,13 +588,17 @@
 });
 </script>
 
+
 <script>
-    lottie.loadAnimation({
-        container: document.getElementById('img-4'),
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-    path: 'img/case-3/img-4.json' 
+lottie.loadAnimation({
+    container: document.getElementById('img-4'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'img/case-3/img-4.json',
+    rendererSettings: {
+        preserveAspectRatio: 'xMidYMid slice'
+    }
 });
 </script>
 
